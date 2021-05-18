@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(21,32,43);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-left{
+    height: 97vh;
+    padding: 30px;
+}
+
+.menu-center{
+    /* i stoped here */
+    border: 1px  rgba(255, 250, 240, 0) solid; 
+    height: 97vh;
+
+}
+.menu-center h4{
+    padding: 10px;
+    color: aliceblue;
+    margin-bottom: -15px;
+}
+
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+}
+
+.menu-right{
+    height: 97vh;
+    
+}
+
+.menu-left .logo{
+    text-align: center; 
+    padding: 5px;
+    color: honeydew;
+    display: table-caption;
+    
+}
+
+.menu-left .logo button{
+
+    color: honeydew;
+    width: 10rem;
+    border: none;
+    text-align: left;
+
+}
+.menu-left .logo i{
+    margin-right: 17px;
+
+}
+.menu-right input{
+    border-radius: 50px;
+    background-color: rgba(21, 32, 43, 0.932);
+    border-color: #ffc10775;
+    margin-right: 10px;
+    width: 18rem;
+    height: 37px;
+    text-indent: 15px;
+    
+
+}
+::placeholder { 
+    color: rgba(255, 255, 255, 0.767);
+  }
+
+
+
+.tweet-post span{
+    color: rgb(236, 236, 236);
+    font-size: 13px;
+}
+
+.create-tweet-form{
+    border-right: 1px solid #8c8b8bab;
+    border-left: 1px solid #8c8b8bab;
+}
+
+.menu-center .create-tweet input{
+    display: inline;
+    border: none;
+    box-shadow: 0px 0px 0px;
+    color: white;
+}
+
+hr.style2{
+    margin-top: 12px;
+    margin-bottom: -1px;
+    border-top: 1px solid #8c8b8bab;
+}
+.menu-center .create-tweet input{
+    border-radius: 50px;
+    background-color: rgb(21,32,43);
+    border: none;
+    
+}
+
+
+.tweet-post{
+    border: 1px #8c8b8b67 solid;
+}
+
+.tweet-post p{
+    color: white;
+    font-size: 17px;
+    width: 29rem;
+}
+
+.tweet-post .edit-tweet {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    margin-left: 11rem;
+    margin-top: 24px;
+
+}
+
+.tweet-post .img-post img{
+    border-radius: 20px;
+    border-bottom: rgb(255, 248, 234);
+}
+
+.element-tweet .icons1 i{
+    color:#dda705 ;
+    padding: 12px;
+    margin-left: 21px;
+    width: 20px;
+    margin-top: 15px;
+}
+.icons i{
+    color: rgba(253, 244, 232, 0.767);
+    padding: 35px;
+    margin-right: 37px;
+    margin-top: -10px;
+    height: 65px;
+}
+

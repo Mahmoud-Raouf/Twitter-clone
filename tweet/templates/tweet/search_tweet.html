@@ -1,0 +1,6 @@
+
+<form method='GET'>
+    {% csrf_token %}
+<div class="menu-right ">
+    <input class="search-input mt-3" type="text" name="q" value="{{ request.GET.q }}" placeholder="Search Twitter..." >
+</form>
